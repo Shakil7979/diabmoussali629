@@ -1,0 +1,39 @@
+ 
+   /*********************************/
+  /***********1.GLOBAL CSS*********/
+ /********************************/
+ 
+body {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    font-size: 1.6rem
+}
+html {
+    /*font-size: 62.5%;*/
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+   /*********************************/
+  /***********2.GLOBAL CSS**********/
+ /********************************/
