@@ -54,7 +54,7 @@ a {
 }
 
 .right-content {
-  flex: 0 0 97%;
+  flex: 0 0 97%; 
 }
 
 .left-settings a img,
@@ -106,6 +106,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 18px;
 }
 
 .nav-second li a {
@@ -156,6 +157,33 @@ a {
   left: 7px;
 }
 
+.user_img{
+  position: relative;
+}
+
+.profile_dropdown {
+	position: absolute;
+	width: 200px;
+	background: #111;
+	top: 190px;
+	right: 21px; 
+	border: 1px solid  #313131;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 99;
+}
+
+.user_img:hover .profile_dropdown{
+  visibility: visible;
+  opacity: 1;
+  top: 50px;
+}
+ 
+.profile_dropdown li a:hover { 
+	color: #168fff;
+}
+
 /*********************************/
 /*********** SIDBAR CSS**********/
 /********************************/
@@ -165,7 +193,7 @@ a {
   height: calc(100vh - 58px);
   box-sizing: border-box;
   padding: 15px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .search-box h4 {
