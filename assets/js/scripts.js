@@ -64,36 +64,25 @@ $('select').each(function () {
 });
 
     
+
 $('#pills-home2').hide(); 
 $('#pills-contact2').hide();
 
 $(document).ready(function(){ 
-
+    $('#pills-home2').show();
     $('#pills-home2-tab').click(function(){
         setTimeout(() => {
             $('#pills-home2').show();
-        }, 100);
-        $('#pills-contact2').hide();
-        $('#pills-profile2').hide();
-
-        return false;
+        }, 100); 
     });
     $('#pills-profile2-tab').click(function(){
         setTimeout(() => {
-            $('#pills-profile2').show();
-        }, 100);
-        $('#pills-home2').hide(); 
-        $('#pills-contact2').hide();
-        
-        return false;
+            $('#pills-home2').show();
+        }, 100);  
     });
     $('#pills-contact2-tab').click(function(){ 
         setTimeout(() => {
-            $('#pills-contact2').show();
-        }, 100);
-        $('#pills-home2').hide();
-        $('#pills-profile2').hide(); 
-
-        return false;
+            $('#pills-home2').show();
+        }, 100);  
     })
 })
