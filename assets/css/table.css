@@ -1,0 +1,23 @@
+body{
+    background: #111;
+}
+.content-all2{
+    background: #363740;
+}
+.right-content {
+	flex: 0 0 100%;
+}
+.tab_nav-area{ 
+    background: #363740;
+    border-radius: 15px;
+}
+
+.cstm_active, .custom_nav_item button:hover {
+	color: #ED9F37 !important;
+	border-bottom: 3px solid #E51D2A !important;
+}
+
+.header-dot i { 
+	border: none; 
+	background: #111;
+}
